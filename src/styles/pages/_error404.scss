@@ -1,0 +1,16 @@
+.page-error{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  color: #FF6060;
+  height: calc(100vh - 367px);
+  span{
+    font-size: 18vw;
+    font-weight: 700;
+    line-height: .8;
+  }
+  .linkBack{
+    text-decoration: underline;
+  }
+}

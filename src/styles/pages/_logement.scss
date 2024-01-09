@@ -1,0 +1,84 @@
+.ContentLogement{
+  display: flex;
+  flex-direction: column;
+  .ImglogementEnCours{
+    height: 415px;
+    width: 100%;
+    border-radius: 25px;
+  }
+
+  .InfosLogement{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    margin-bottom: 24px;
+    .titleLogement{
+      color: #FF6060;
+      font-size: 36px;
+      font-weight: 500;
+      line-height: 52px;
+      margin-top: 30px;
+    }
+    span{
+      color: #FF6060;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 26px;
+    }
+    .tagsLogement{
+      display: flex;
+      gap: 10px;
+      margin-top: 20px;
+      .TagLabel{
+        background: #FF6060;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 500;
+        width: 115px;
+        padding: 2px 0;
+        border-radius: 10px;
+        display: grid;
+        place-items: center;
+        text-align: center;
+      }
+    }
+  }
+  .profil{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 24px;
+    .hostLogement{
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      .nameHost{
+        text-align: end;
+        color: #FF6060;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 26px;
+      }
+      .pictureHost{
+        height: 64px;
+        width: 64px;
+        border-radius: 50%;
+      }
+    }
+    .starsRating{
+      display: flex;
+      justify-content: end;
+      gap: 10px;
+      .star{
+        height: 24px;
+        width: auto;
+      }
+    }
+  }
+  .description {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 50px;
+  }
+}
+

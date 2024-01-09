@@ -1,0 +1,38 @@
+header{
+  display: flex;
+  flex-direction: column;
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 45px 0 50px;
+    ul{
+      list-style: none;
+      display: flex;
+      gap: 50px;
+      font-size: 24px;
+      font-weight: 500;
+      color: #FF6060;
+      li {
+        cursor: pointer;
+        &:hover{
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width: 769px) {
+  header {
+    img{
+      width: 100px;
+      height: auto;
+    }
+    nav ul {
+      gap: 15px;
+      font-size: 16px;
+    }
+  }
+}

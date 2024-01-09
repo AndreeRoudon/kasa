@@ -1,0 +1,23 @@
+.cardsLogement{
+  position: relative;
+  .titleCard{
+    position: absolute;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    bottom: 10px;
+    left: 15px;
+    text-align: left;
+    max-width: 340px;
+    z-index: 2;
+  }
+  img{
+    width: 340px;
+    height: 340px;
+    border-radius: 10px;
+    cursor: pointer;
+    &:hover{
+      filter: brightness(60%);
+    }
+  }
+}

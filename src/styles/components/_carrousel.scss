@@ -1,0 +1,35 @@
+.carrousel{
+  position: relative;
+  .img-carrousel{
+    height: 415px;
+    width: 100%;
+    border-radius: 25px;
+  }
+  .chevronLeft{
+    position: absolute;
+    color: #ffffff;
+    left: 2%;
+    transform: translateY(-50%);
+    top: 50%;
+    font-size: 54px;
+    cursor: pointer;
+  }
+  .chevronRight{
+    position: absolute;
+    color: #ffffff;
+    right: 2%;
+    transform: translateY(-50%);
+    top: 50%;
+    font-size: 54px;
+    cursor: pointer;
+  }
+  .count-carrousel{
+    position: absolute;
+    color: #ffffff;
+    bottom: 3%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 18px;
+    font-weight: 500;
+  }
+}

@@ -1,0 +1,39 @@
+.open{
+  .chevronIcon {
+    transform-origin: center;
+    transform: rotate(0deg)!important;
+  }
+  //.accordionContainer {
+  //  transform-origin: center;
+  //  transform: translateY(0)!important;
+  //}
+}
+
+.accordion{
+  width: 100%;
+  .accordionHeader{
+    width: 100%;
+    margin: auto;
+    background-color: #FF6060;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 10px 20px 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .chevronIcon{
+      transform: rotate(180deg);
+      transition: transform .3s ease-in-out;
+      transform-origin: center;
+    }
+  }
+  .accordionContainer{
+    width: 100%;
+    margin: auto;
+    background-color: #F6F6F6;
+    padding: 20px 25px;
+    //transition: transform 1s ease-in-out;
+    //transform-origin: center;
+    //transform: translateY(-60%);
+  }
+}

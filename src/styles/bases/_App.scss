@@ -1,0 +1,14 @@
+.container{
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+main{
+  min-height: calc(100vh - 210px - 118px);
+}
+
+@media screen and (max-width: 1280px)  {
+  .container {
+    max-width: 90vw;
+  }
+}
